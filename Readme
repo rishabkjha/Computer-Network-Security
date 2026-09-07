@@ -1,1 +1,19 @@
-ARP spoofing
+By the end of this operation, you will be able to:
+1.Read raw captured traffic like a first responder: identify Ethernet, IP, and TCP/UDP header fields and
+map them to Sport/Dport and SIP/DIP.
+2.Reconstruct the 5-tuple (socket) behind a live connection and cross-check it against the OS's own
+socket table.
+3.Capture and interpret an ARP request/reply exchange, field by field — your baseline for spotting a
+forged one later.
+4.Carve out address space for a new building under time pressure using VLSM, and summarize routes
+for the border router.
+5.Use whois and a direct root-server query to attribute a suspicious external address and place it in
+the global addressing hierarchy.
+6.Run UMBRA's suspected move yourself — an ARP poisoning attack — inside the range, then detect it
+and shut it down from the defender's side.
+7.Design and defend the secure network topology for Launch Day.
+
+Requirements:
+1.3 virtual machines (preffered OS: ubuntu)
+2.all 3 machines should be on a 'internal network' of the same name (name: intnet) on network adapter 1
+3.all 3 machines should have a NAT connectivity on network apdater 2 for downloading stuff (disable this while doing the assignment)
