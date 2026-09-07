@@ -15,3 +15,7 @@ Setting up machine IP address:
 
   sudo chmod 600 /etc/netplan/01-netcfg.yaml
   sudo netplan apply
+
+Installing libs:
+1.open terminal:
+  sudo apt update && sudo apt install -y wireshark tcpdump iproute2 curl netcat-openbsd dnsutils whois ipcalc python3 dsniff ettercap-text-only
