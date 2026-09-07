@@ -45,3 +45,16 @@ Session1:
   stop capture
   add filter 'tcp'
 
+8.switch to terminal:
+  sudo ip -s -s neigh flush all
+
+9.switch to wireshark:
+  start capture
+
+10.switch to terminal:
+  ping -c 1 192.168.1.2
+
+9.switch to wireshark:
+  stop capture
+  add filter 'icmp'
+
