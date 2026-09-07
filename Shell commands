@@ -19,3 +19,4 @@ Setting up machine IP address:
 Installing libs:
 1.open terminal:
   sudo apt update && sudo apt install -y wireshark tcpdump iproute2 curl netcat-openbsd dnsutils whois ipcalc python3 dsniff ettercap-text-only
+  sudo snap install curl
