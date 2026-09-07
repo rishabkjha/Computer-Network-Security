@@ -34,3 +34,14 @@ Session1:
 4.switch to wireshark:
   stop capture
   add filter 'icmp'
+
+5.in wireshark:
+  start capture
+
+6.switch to terminal:
+  curl -v http://192.168.1.2:8000
+
+7.switch to wireshark:
+  stop capture
+  add filter 'tcp'
+
