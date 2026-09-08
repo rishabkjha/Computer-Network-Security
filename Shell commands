@@ -10,8 +10,6 @@ Setting up machine IP address:
       dhcp4: no
       addresses:
         - 192.168.1.2/24
-    enp0s8:
-      dhcp4: yes
 
   []^S
   []^X
