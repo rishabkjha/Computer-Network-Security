@@ -4,7 +4,7 @@ Setting up machine IP address:
 
   network:
   version: 2
-  renderer: networkd
+  renderer: NetworkManager
   ethernets:
     enp0s3:
       dhcp4: no
@@ -18,6 +18,11 @@ Setting up machine IP address:
 
   sudo chmod 600 /etc/netplan/01-netcfg.yaml
   sudo netplan apply
+
+2.if there are multiple connection profiles how to delete them:
+  nmcli connection show
+  nmcli connection delete "Wired connection 1"
+
 
 Installing libs:
 1.open terminal:
