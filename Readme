@@ -15,5 +15,5 @@ and shut it down from the defender's side.
 
 Requirements:
 1.3 virtual machines (preffered OS: ubuntu)
-2.all 3 machines should be on a 'internal network' of the same name (name: intnet) on network adapter 1
-3.all 3 machines should have a NAT connectivity on network apdater 2 for downloading stuff (disable this while doing the assignment)
+2.all 3 machines should be on a 'internal network' of the same name (name: intnet) on network adapter 1 (route all communications between the vir mac through this)
+3.all 3 machines should have a NAT connectivity on network apdater 2 for downloading stuff (route all internet traffic through this)
