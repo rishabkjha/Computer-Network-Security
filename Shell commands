@@ -19,7 +19,7 @@ Setting up machine IP address:
 
 2.if there are multiple connection profiles how to delete them:
   nmcli connection show
-  nmcli connection delete "Wired connection 1"
+  nmcli connection delete "netplan-enp0s8"
 
 
 Installing libs:
